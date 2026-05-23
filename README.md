@@ -1,12 +1,16 @@
-# 🎧💬 SmartSupport: Intelligent Customer Support Agent powered by LangGraph & Groq
+# 🎧💬 SmartSupport: Intelligent Customer Support Agent 
 
-SmartSupport is an AI-powered customer support agent that automatically categorizes incoming queries, detects sentiment, and routes each conversation to the right handler — all in real time. No rigid decision trees, no hardcoded FAQs. Just a smart agent that knows when to troubleshoot, when to handle billing, and when to escalate.
+SmartSupport is an AI-powered customer support agent that automatically categorizes incoming queries, detects sentiment, and routes each conversation to the right handler all in real time. No rigid decision trees, no hardcoded FAQs. Just a smart agent that knows when to troubleshoot, when to handle billing, and when to escalate.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.45-FF4B4B?logo=streamlit&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1.2-1D9E75?logo=langchain&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-Llama%203.3%2070B-E24B4A?logo=groq&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
+
+
+<img width="1408" height="768" alt="Smart Support" src="https://github.com/user-attachments/assets/5c6f2fcc-2c9d-4a28-87c4-7edc5e682016" />
 
 ---
 
@@ -177,11 +181,6 @@ Escalating every negative-sentiment query is a common mistake — it leaves frus
 │  ⚙️ Configuration                                            │
 │  Groq API Key                                                │
 │  [gsk_••••••••••••••••••••••••••]                           │
-│  ──────────────────────────────────────────────────────────  │
-│  How it works                                                │
-│  1. Query is categorized                                     │
-│  2. Sentiment is detected                                    │
-│  3. Routed to the right handler                              │
 ├──────────────────────────────────────────────────────────────┤
 │                        main area                             │
 │                                                              │
@@ -207,7 +206,7 @@ Escalating every negative-sentiment query is a common mistake — it leaves frus
 
 ## ☁️ Deploy to Streamlit Cloud
 
-### Step 1 — Push to GitHub
+### Step 1: Push to GitHub
 
 ```bash
 git init
@@ -217,33 +216,15 @@ git remote add origin https://github.com/muqadasejaz/SmartSupport-Customer-Suppo
 git push -u origin main
 ```
 
-### Step 2 — Deploy on Streamlit Cloud
+### Step 2: Deploy on Streamlit Cloud
 
 1. Go to [share.streamlit.io](https://share.streamlit.io)
 2. Click **New app**
 3. Select your repository and set **Main file path** to `app.py`
 4. Click **Deploy**
 
-> 💡 **No secrets needed** — users supply their own Groq API key through the sidebar UI.
+> 💡 **No secrets needed** users supply their own Groq API key through the sidebar UI.
 
----
-
-## ⚙️ Configuration
-
-### Optional `.env` (local development only)
-
-```env
-# .env — never commit this file
-GROQ_API_KEY=gsk_your_key_here
-```
-
-### Streamlit theme (`.streamlit/config.toml`)
-
-```toml
-[theme]
-base = "light"
-primaryColor = "#4F8BF9"
-```
 
 ---
 
@@ -256,17 +237,6 @@ langchain-groq>=1.1.2
 langgraph>=1.2.0
 python-dotenv>=1.0.0
 ```
-
----
-
-## 🗺 Roadmap
-
-- [ ] Multi-turn conversation memory per session
-- [ ] Human handoff integration (email/Slack notification on escalation)
-- [ ] Confidence scoring on category and sentiment classification
-- [ ] Support for custom knowledge base (FAQ injection)
-- [ ] OpenAI / Anthropic model toggle
-- [ ] Docker container for self-hosted deployment
 
 ---
 

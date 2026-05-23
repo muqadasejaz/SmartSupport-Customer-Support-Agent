@@ -30,11 +30,11 @@ Paste your Groq API key, type a customer query, and the agent handles everything
 
 | Feature | Details |
 |---|---|
-| 🔑 **Bring-your-own key** | Enter your Groq API key in the sidebar — no `.env` or server config needed |
+| 🔑 **Bring-your-own key** | Enter your Groq API key in the sidebar, no `.env` or server config needed |
 | 🗂 **Auto categorization** | Every query is classified as Technical, Billing, or General before routing |
-| 💬 **Sentiment detection** | Positive, Neutral, or Negative — detected automatically on each message |
+| 💬 **Sentiment detection** | Positive, Neutral, or Negative, detected automatically on each message |
 | 🔀 **Smart routing** | LangGraph conditional edges route to the right handler based on category + sentiment |
-| 🚨 **Escalation logic** | Only Negative + Technical queries escalate — other frustrated users still get real help |
+| 🚨 **Escalation logic** | Only Negative + Technical queries escalate, other frustrated users still get real help |
 | 🤝 **Empathy-aware replies** | Negative-sentiment queries get an empathetic opening before the actual answer |
 | 📊 **Live metadata badges** | Every response shows the detected category and sentiment inline |
 

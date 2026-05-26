@@ -70,7 +70,7 @@ Paste your Groq API key, type a customer query, and the agent handles everything
 
 ```bash
 git clone https://github.com/muqadasejaz/SmartSupport-Customer-Support-Agent
-cd supportiq-agent
+cd SmartSupport-agent
 ```
 
 ### 2 · Create a virtual environment

@@ -12,6 +12,9 @@ SmartSupport is an AI-powered customer support agent that automatically categori
 
 <img width="1408" height="768" alt="Smart Support" src="https://github.com/user-attachments/assets/5c6f2fcc-2c9d-4a28-87c4-7edc5e682016" />
 
+
+ **Note:** This is a general-purpose customer support agent. It is not affiliated with any company or product, use it to explore AI-powered support routing
+
 ---
 
 ## 📌 Overview
@@ -23,7 +26,7 @@ SmartSupport is an AI-powered customer support agent that automatically categori
 - **Streamlit** for a clean, zero-config chat interface
 
 Paste your Groq API key, type a customer query, and the agent handles everything — classifying the issue, reading the sentiment, picking the right handler, and responding with context-aware, empathetic answers.
-
+ 
 ---
 
 ## ✨ Features

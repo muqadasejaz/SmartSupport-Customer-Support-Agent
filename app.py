@@ -286,3 +286,5 @@ if st.session_state.messages:
     if st.button("Clear chat", type="secondary"):
         st.session_state.messages = []
         st.rerun()
+
+st.caption("📝 Note: This is a general-purpose customer support agent. It is not affiliated with any company or product, use it to explore AI-powered support routing.")

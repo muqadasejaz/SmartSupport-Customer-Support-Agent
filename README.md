@@ -25,7 +25,7 @@ SmartSupport is an AI-powered customer support agent that automatically categori
 - **Groq** (Llama 3.3 70B) for fast, high-quality LLM inference
 - **Streamlit** for a clean, zero-config chat interface
 
-Paste your Groq API key, type a customer query, and the agent handles everything — classifying the issue, reading the sentiment, picking the right handler, and responding with context-aware, empathetic answers.
+Paste your Groq API key, type a customer query, and the agent handles everything, classifying the issue, reading the sentiment, picking the right handler, and responding with context-aware, empathetic answers.
  
 ---
 
